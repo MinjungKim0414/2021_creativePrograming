@@ -7,9 +7,9 @@ using namespace std;
 
 int main(void){
 	int N, target, cnt=0;
-	int* arr = new int[N];
- 	
 	cin >> N;
+
+	int* arr = new int[N];
 
 	for(int i=0; i<N; i++){
 		cin >> arr[i];
@@ -23,7 +23,8 @@ int main(void){
 	}
 
 	cout << "target count: " << cnt << endl;
-
+	
+	delete[] arr;
 	return 0;
 }
 

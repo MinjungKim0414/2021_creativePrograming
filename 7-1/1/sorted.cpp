@@ -22,14 +22,10 @@ vector<int> SortedArray::GetSortedDescending() {
 }
 
 int SortedArray::GetMax() {
-	//sort(numbers_.begin(), numbers_.end());dddd
-	//return numbers_.back();
 	return *max_element(numbers_.begin(), numbers_.end());
 }
 
 int SortedArray::GetMin() {
-	//sort(numbers_.begin(), numbers_.end());
-	//return numbers_.front();
 	return *min_element(numbers_.begin(), numbers_.end());
 }
 

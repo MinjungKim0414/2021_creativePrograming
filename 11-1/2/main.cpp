@@ -44,7 +44,7 @@ int main(){
 				// copy
 				if(swit == 0){
                                         C = ((_1 == "a")? A:B) 
-                                                + ((_2 == "b")? B:A);
+						+ ((_2 == "b")? B:A);
 					MyString2 C(C);
 				}
 			}

@@ -1,1 +1,1 @@
-add_executable(exception main.cpp)
+add_executable(exception3 main.cpp)
